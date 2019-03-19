@@ -1,0 +1,8 @@
+#cloud-config
+
+ssh_authorized_keys:
+  - ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WpqT+ppDB8adL7vLrRWHnpVW33ufum3WZyGzXMZ3KUr0Nu9taFhDrOx1P+iJJXW7/8wc91xcbVVPC9YhGyMjmZkOl1i456Mkcpm+7DdjP7TiiZAVlhLJ22TzH4rA9zcX7WBPBzRt/f7BrKRjXXp5JBUDdK1EOZj1awlV8yokR59GW9/5eviQTfIP8gJj49oVJ9zBYyHkh1iT8Cm8w/kVQUVEYGvzd4lxTzci4PqXi/1E1L1eMnlW8nf1CT87fOh+rLnl0MqvIbjsF13aOqUoe7vOBPV+G4+pKbp15+A+qwXnSDK5hBchjwfZnC8mKjIXK+FsFpXxCj1csYZohKEl walter@Orange15.local
+  
+rancher:
+  docker:
+    tls: true
